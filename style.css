@@ -1,0 +1,92 @@
+/* GLOBAL CSS Applied to all pages */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; 
+  background-image: url('image_7.png'); /* Tło strony, upewnij się, że masz taki plik lub usuń tę linijkę */
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Garamond', serif;
+  color: #c9b091;
+  line-height: 1.6;
+}
+
+.story-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: rgba(10, 10, 15, 0.95);
+  border: 2px solid #3a2a1a;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.8);
+  border-radius: 8px;
+}
+
+header h1 {
+  text-align: center;
+  border-bottom: 1px solid #3a2a1a;
+  padding-bottom: 15px;
+  color: #e0cda7;
+}
+
+/* Wygląd nawigacji */
+.global-nav {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #2a1f14;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.global-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.global-nav a:hover, .global-nav a.active {
+  color: #d4af37; 
+  border-bottom: 2px solid #d4af37;
+}
+
+/* Obrazki */
+.story-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 20px 0;
+  border: 1px solid #3a2a1a;
+}
+
+.portrait-image {
+  width: 50%;
+  float: right;
+  margin: 10px 0 20px 20px;
+}
+
+/* Przyciski Dalej/Wstecz */
+.navigation-buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #3a2a1a;
+  padding-top: 20px;
+}
+
+.navigation-buttons a {
+  background-color: #3a2a1a;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.navigation-buttons a:hover {
+  background-color: #5a422a;
+}
+
+.next-button {
+  margin-left: auto; 
+}
